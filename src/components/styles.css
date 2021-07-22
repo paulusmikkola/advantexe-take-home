@@ -1,0 +1,104 @@
+:root {
+  --primary-color: #ed7d31;
+  --primary-background-color: #a5a5a5;
+  --whilte: #fff;
+}
+
+html {
+  position: fixed;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+body {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: var(--primary-background-color) !important;
+  font-family: sans-serif;
+}
+
+.navbar-custom {
+  height: 90px;
+  background-color: var(--primary-color);
+}
+
+.navbar-container-custom {
+  height: 100%;
+  overflow: none;
+}
+
+.navbar-brand-custom {
+  position: relative;
+  height: 100% !important;
+}
+
+.slide-custom {
+  background-color: var(--whilte);
+  height: 100vh;
+  width: 90%;
+}
+
+.slide-header-custom {
+  width: 90%;
+}
+
+.slide-body-custom {
+  width: 80%;
+  overflow: none;
+}
+
+.btn-custom {
+  width: 100px;
+  border: none;
+}
+
+.card-custom {
+  height: 300px;
+}
+
+.card-title-custom {
+  color: var(--whilte);
+  background-color: var(--primary-color);
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.form-custom {
+  height: 100%;
+}
+
+.col-custom {
+  max-width: 65%;
+}
+.input-custom {
+  width: 90px;
+  height: 1.7rem;
+}
+
+.list-group-custom {
+  height: 100%;
+  border: none;
+}
+
+.list-item-custom {
+  border: none;
+  padding: 0;
+}
+
+.select-custom {
+  width: 90px;
+  height: 27px;
+  font-size: 0.9rem;
+}
+
+.robo-Buddy-Image {
+  height: 90%;
+  width: 90%;
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.52);
+}
